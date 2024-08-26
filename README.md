@@ -17,8 +17,10 @@ to run the application use
 flutter run lib/main.dart
 ```
 
-## Preview
+## Visit
+https://clementmathew.github.io/Daily_Remainder/
 
+## Preview
 <img src="https://github.com/user-attachments/assets/37b41c8d-c7c9-4aba-8c83-359bdd14f6d3" width="350" height="730">
 <img src="https://github.com/user-attachments/assets/fc2053b0-11ef-478c-b939-f9d5ea1df8d5" width="350" height="730">
 <img src="https://github.com/user-attachments/assets/9321e774-87e9-45c9-89c8-80d061580455" width="350" height="735">
