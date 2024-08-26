@@ -246,27 +246,31 @@ class _ReminderHomePageState extends State<ReminderHomePage> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            DropdownButton<String>(
-              hint: Text('Select Day of the Week'),
-              value: selectedDay,
-              onChanged: (String? newValue) {
-                setState(() {
-                  selectedDay = newValue;
-                });
-              },
-              items: daysOfWeek.map((String day) {
-                return DropdownMenuItem<String>(
-                  value: day,
-                  child: Text(day),
-                );
-              }).toList(),
-              icon: Icon(
-                Icons.arrow_drop_down,
-                color: Color.fromARGB(255, 168, 16, 140),
-              ),
-              underline: Container(
-                height: 1,
-                color: Color.fromARGB(255, 168, 16, 140),
+            Container(
+              margin: EdgeInsetsDirectional.only(top: 20),
+              width: 200,
+              child: DropdownButton<String>(
+                hint: Text('Select Day of the Week'),
+                value: selectedDay,
+                onChanged: (String? newValue) {
+                  setState(() {
+                    selectedDay = newValue;
+                  });
+                },
+                items: daysOfWeek.map((String day) {
+                  return DropdownMenuItem<String>(
+                    value: day,
+                    child: Text(day),
+                  );
+                }).toList(),
+                icon: Icon(
+                  Icons.arrow_drop_down,
+                  color: Color.fromARGB(255, 168, 16, 140),
+                ),
+                underline: Container(
+                  height: 1,
+                  color: Color.fromARGB(255, 168, 16, 140),
+                ),
               ),
             ),
             SizedBox(height: 20),
@@ -279,27 +283,30 @@ class _ReminderHomePageState extends State<ReminderHomePage> {
               ),
             ),
             SizedBox(height: 20),
-            DropdownButton<String>(
-              hint: Text('Select Activity'),
-              value: selectedActivity,
-              onChanged: (String? newValue) {
-                setState(() {
-                  selectedActivity = newValue;
-                });
-              },
-              items: activities.map((String activity) {
-                return DropdownMenuItem<String>(
-                  value: activity,
-                  child: Text(activity),
-                );
-              }).toList(),
-              icon: Icon(
-                Icons.arrow_drop_down,
-                color: Color.fromARGB(255, 168, 16, 140),
-              ),
-              underline: Container(
-                height: 1,
-                color: Color.fromARGB(255, 168, 16, 140),
+            Container(
+              width: 200,
+              child: DropdownButton<String>(
+                hint: Text('Select Activity'),
+                value: selectedActivity,
+                onChanged: (String? newValue) {
+                  setState(() {
+                    selectedActivity = newValue;
+                  });
+                },
+                items: activities.map((String activity) {
+                  return DropdownMenuItem<String>(
+                    value: activity,
+                    child: Text(activity),
+                  );
+                }).toList(),
+                icon: Icon(
+                  Icons.arrow_drop_down,
+                  color: Color.fromARGB(255, 168, 16, 140),
+                ),
+                underline: Container(
+                  height: 1,
+                  color: Color.fromARGB(255, 168, 16, 140),
+                ),
               ),
             ),
             SizedBox(height: 20),
@@ -401,7 +408,3 @@ class Reminder {
     };
   }
 }
-
-
-
-
