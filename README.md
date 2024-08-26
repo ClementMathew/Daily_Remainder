@@ -19,8 +19,8 @@ flutter run lib/main.dart
 
 ## Preview
 
-<img src="https://github.com/user-attachments/assets/b64cd733-b59e-470f-99df-8de1d4a2c2c1" width="350" height="730">
-<img src="https://github.com/user-attachments/assets/8a9c6d3b-d184-4e10-b394-cac875e0e582" width="350" height="730">
-<img src="https://github.com/user-attachments/assets/d9171839-e252-4be7-bfd9-957e40a5d730" width="350" height="730">
-<img src="https://github.com/user-attachments/assets/b48f7bce-a72c-4a36-a6bd-23707bb9cf20" width="350" height="730">
+<img src="https://github.com/user-attachments/assets/37b41c8d-c7c9-4aba-8c83-359bdd14f6d3" width="350" height="730">
+<img src="https://github.com/user-attachments/assets/84d7f161-6b17-444d-9eab-487f1ffeba82" width="350" height="730">
+<img src="https://github.com/user-attachments/assets/9321e774-87e9-45c9-89c8-80d061580455" width="350" height="730">
+<img src="https://github.com/user-attachments/assets/fc2053b0-11ef-478c-b939-f9d5ea1df8d5" width="350" height="730">
 
